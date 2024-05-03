@@ -1,0 +1,18 @@
+table {
+  /* 
+  테이블과 각 셀의 여백을 지정하는
+  border-collapse 속성과
+  테이블의 제목 위치를 지정하는
+  cartion-side 속성은
+  기본적으로 table에 지정
+  */
+  caption-side: bottom;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid black;
+}
+
+/* table, th, td 다 같이 써서 적용해도 상관 X */

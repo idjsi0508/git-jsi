@@ -1,0 +1,11 @@
+탐색기 삭제 : ctrl + b
+설정 단축기 : ctrl + ,
+guides >> 첫번째 꺼 active
+save >> auto save 체크
+prettier > Tap width > 2로 변경
+tap size > 4
+word wrap > 첫번 째 on
+폴더이름변경 > 폴더 클릭 f2
+wheel 검색 > mouse wheel zoom on
+
+github > 구글검색 > 들어가서 > devgiants75 > 0325 > 코드 공유

@@ -1,0 +1,32 @@
+caption {
+  /* 캡션 위치 지정 / 기본값: top */
+  caption-side: bottom;
+}
+
+table {
+  /* solid: 실선 */
+  /* 두께 모양 색상 */
+  border: 1px solid black;
+  /* 수평(가로): 10px, 수직(세로): */
+  /* border-spacing: 10px 20px; */
+  /* 두 값이 같으면 하나만 지정 */
+  /* border-spacing: 20px; */
+  /* 셀 테두리 합치기(테이블 색 보다 셀의 색이 우선) */
+  border-collapse: collapse;
+}
+
+th {
+  border: 1px solid pink;
+}
+
+td {
+  border: 1px solid lightblue;
+}
+
+/* 
+!테이블 스타일 지정의 기본값
+*/
+/* table, th, td {
+  border: 1px solid black;
+} */
+

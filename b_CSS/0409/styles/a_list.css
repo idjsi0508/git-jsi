@@ -1,0 +1,30 @@
+#list-style-type-ul {
+  /* 리스트 동그라미를 네모로 바꿈 */
+  /* disc, circle, square */
+  /* list-style-type: square; */
+  /* 불릿보다 조금 더 들여쓰기 */
+  /* list-style-position: inside; */
+
+  /* 위 두 개 스타일을 모두 적용 */
+  list-style: square inside;
+}
+
+#list-style-type-ol {
+  list-style-type: disc;
+  /* 숫자(로마자) 낮은 순 */
+  list-style-type: lower-roman;
+  /* 숫자(로마자) 높은 순 */
+  list-style-type: upper-roman;
+  /* upper-latin */
+  list-style-type: upper-alpha;
+  /* lower-latin */
+  list-style-type: lower-alpha;
+  /* 들여쓰기 기본값 */
+  list-style-position: outside;
+}
+
+#list-style-image {
+  /* url('이미지경로') 함수 
+  : 속성값에 이미지를 포함시켜주는 함수 */
+  list-style-image: url('../../../images/dog.png');
+}

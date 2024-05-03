@@ -1,0 +1,26 @@
+/* p요소의 부모 요소의 자식 중에 첫 번째 p요소 */
+p:first-child {
+  color: blue;
+}
+
+p:last-child {
+  color: red;
+}
+
+p:nth-child(2) {
+  color: green;
+}
+
+.container p:nth-of-type(3) {
+  background-color: green;
+}
+
+/* :not() 빼고 전부 */
+p:not(.speical) {
+  background-color: yellow;
+}
+
+/* 밑이 먹히지 않는 이유는 위에 코드가 더 상세하기 때문임 */
+p {
+  background-color: red;
+}

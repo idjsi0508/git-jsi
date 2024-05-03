@@ -1,0 +1,24 @@
+/* e_practice.css */
+
+div p {
+  color: red;
+}
+div > p {
+  color: blue;
+}
+
+p + p {
+  color: green;
+}
+
+div ~ p {
+  color: yellow;
+}
+
+ul li:nth-of-type(2) {
+  color: purple;
+}
+
+ul > li.highlight {
+  background-color: lightblue;
+}

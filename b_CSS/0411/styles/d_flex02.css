@@ -1,0 +1,41 @@
+html {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background: purple;
+  height: 100px;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  line-height: 100px;
+  margin: 0;
+}
+
+
+/* Add your flexbox CSS below here */
+
+section {
+  display: flex;
+}
+
+article {
+  padding: 10px;
+  margin: 10px;
+  background: aqua;
+
+  /* flex item 크기 조정 */
+  flex: 1 200px;
+}
+
+/* article 요소들 중 3번째 요소 */
+article:nth-of-type(3) {
+  /* 1:1:2 비율 */
+  flex: 2 200px;
+}
